@@ -3,7 +3,7 @@
 
 public class CtoFTester {
   public static double celsiusToFahrenheit(double C) {
-    double F = C * 1.8 - 32;
+    double F = C * 1.8 + 32;
     return F;
   }
 
