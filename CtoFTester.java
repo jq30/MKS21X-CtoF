@@ -11,4 +11,12 @@ public class CtoFTester {
     double C = (F - 32) * 5/9;
     return C;
   }
+
+  public static void main(String[] wheeeeeee) {
+    //test cases
+    System.out.print("celsiusToFahrenheit(50) should return 122. It returns: ");
+    System.out.println(celsiusToFahrenheit(50));
+    System.out.print("fahrenheitToCelsius(113) should return 45. It returns: ");
+    System.out.println(fahrenheitToCelsius(113));
+  }
 }
